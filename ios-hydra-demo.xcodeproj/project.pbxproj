@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B666A10D20E89B1D00781B20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B666A10C20E89B1D00781B20 /* AppDelegate.swift */; };
+		B666A10F20E89B1D00781B20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B666A10E20E89B1D00781B20 /* ViewController.swift */; };
+		B666A11220E89B1D00781B20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B666A11020E89B1D00781B20 /* Main.storyboard */; };
+		B666A11420E89B1F00781B20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B666A11320E89B1F00781B20 /* Assets.xcassets */; };
+		B666A11720E89B1F00781B20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B666A11520E89B1F00781B20 /* LaunchScreen.storyboard */; };
+		B666A12220E89B1F00781B20 /* ios_hydra_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B666A12120E89B1F00781B20 /* ios_hydra_demoTests.swift */; };
+		B666A12D20E89B1F00781B20 /* ios_hydra_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B666A12C20E89B1F00781B20 /* ios_hydra_demoUITests.swift */; };
+		B6BAFE9020E89E09008C0011 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BAFE8E20E89E09008C0011 /* Alamofire.framework */; };
+		B6BAFE9120E89E09008C0011 /* Hydra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BAFE8F20E89E09008C0011 /* Hydra.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B666A11E20E89B1F00781B20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B666A10120E89B1D00781B20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B666A10820E89B1D00781B20;
+			remoteInfo = "ios-hydra-demo";
+		};
+		B666A12920E89B1F00781B20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B666A10120E89B1D00781B20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B666A10820E89B1D00781B20;
+			remoteInfo = "ios-hydra-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B666A10920E89B1D00781B20 /* ios-hydra-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-hydra-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B666A10C20E89B1D00781B20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B666A10E20E89B1D00781B20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B666A11120E89B1D00781B20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B666A11320E89B1F00781B20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B666A11620E89B1F00781B20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B666A11820E89B1F00781B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B666A11D20E89B1F00781B20 /* ios-hydra-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-hydra-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B666A12120E89B1F00781B20 /* ios_hydra_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_hydra_demoTests.swift; sourceTree = "<group>"; };
+		B666A12320E89B1F00781B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B666A12820E89B1F00781B20 /* ios-hydra-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-hydra-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B666A12C20E89B1F00781B20 /* ios_hydra_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_hydra_demoUITests.swift; sourceTree = "<group>"; };
+		B666A12E20E89B1F00781B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6BAFE8E20E89E09008C0011 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		B6BAFE8F20E89E09008C0011 /* Hydra.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hydra.framework; path = Carthage/Build/iOS/Hydra.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B666A10620E89B1D00781B20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BAFE9020E89E09008C0011 /* Alamofire.framework in Frameworks */,
+				B6BAFE9120E89E09008C0011 /* Hydra.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B666A11A20E89B1F00781B20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B666A12520E89B1F00781B20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B666A10020E89B1D00781B20 = {
+			isa = PBXGroup;
+			children = (
+				B666A10B20E89B1D00781B20 /* ios-hydra-demo */,
+				B666A12020E89B1F00781B20 /* ios-hydra-demoTests */,
+				B666A12B20E89B1F00781B20 /* ios-hydra-demoUITests */,
+				B666A10A20E89B1D00781B20 /* Products */,
+				B6BAFE8D20E89E08008C0011 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B666A10A20E89B1D00781B20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B666A10920E89B1D00781B20 /* ios-hydra-demo.app */,
+				B666A11D20E89B1F00781B20 /* ios-hydra-demoTests.xctest */,
+				B666A12820E89B1F00781B20 /* ios-hydra-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B666A10B20E89B1D00781B20 /* ios-hydra-demo */ = {
+			isa = PBXGroup;
+			children = (
+				B666A10C20E89B1D00781B20 /* AppDelegate.swift */,
+				B666A10E20E89B1D00781B20 /* ViewController.swift */,
+				B666A11020E89B1D00781B20 /* Main.storyboard */,
+				B666A11320E89B1F00781B20 /* Assets.xcassets */,
+				B666A11520E89B1F00781B20 /* LaunchScreen.storyboard */,
+				B666A11820E89B1F00781B20 /* Info.plist */,
+			);
+			path = "ios-hydra-demo";
+			sourceTree = "<group>";
+		};
+		B666A12020E89B1F00781B20 /* ios-hydra-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B666A12120E89B1F00781B20 /* ios_hydra_demoTests.swift */,
+				B666A12320E89B1F00781B20 /* Info.plist */,
+			);
+			path = "ios-hydra-demoTests";
+			sourceTree = "<group>";
+		};
+		B666A12B20E89B1F00781B20 /* ios-hydra-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B666A12C20E89B1F00781B20 /* ios_hydra_demoUITests.swift */,
+				B666A12E20E89B1F00781B20 /* Info.plist */,
+			);
+			path = "ios-hydra-demoUITests";
+			sourceTree = "<group>";
+		};
+		B6BAFE8D20E89E08008C0011 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6BAFE8E20E89E09008C0011 /* Alamofire.framework */,
+				B6BAFE8F20E89E09008C0011 /* Hydra.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B666A10820E89B1D00781B20 /* ios-hydra-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B666A13120E89B1F00781B20 /* Build configuration list for PBXNativeTarget "ios-hydra-demo" */;
+			buildPhases = (
+				B666A10520E89B1D00781B20 /* Sources */,
+				B666A10620E89B1D00781B20 /* Frameworks */,
+				B666A10720E89B1D00781B20 /* Resources */,
+				B6BAFE9220E89E13008C0011 /* Carthage */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-hydra-demo";
+			productName = "ios-hydra-demo";
+			productReference = B666A10920E89B1D00781B20 /* ios-hydra-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B666A11C20E89B1F00781B20 /* ios-hydra-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B666A13420E89B1F00781B20 /* Build configuration list for PBXNativeTarget "ios-hydra-demoTests" */;
+			buildPhases = (
+				B666A11920E89B1F00781B20 /* Sources */,
+				B666A11A20E89B1F00781B20 /* Frameworks */,
+				B666A11B20E89B1F00781B20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B666A11F20E89B1F00781B20 /* PBXTargetDependency */,
+			);
+			name = "ios-hydra-demoTests";
+			productName = "ios-hydra-demoTests";
+			productReference = B666A11D20E89B1F00781B20 /* ios-hydra-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B666A12720E89B1F00781B20 /* ios-hydra-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B666A13720E89B1F00781B20 /* Build configuration list for PBXNativeTarget "ios-hydra-demoUITests" */;
+			buildPhases = (
+				B666A12420E89B1F00781B20 /* Sources */,
+				B666A12520E89B1F00781B20 /* Frameworks */,
+				B666A12620E89B1F00781B20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B666A12A20E89B1F00781B20 /* PBXTargetDependency */,
+			);
+			name = "ios-hydra-demoUITests";
+			productName = "ios-hydra-demoUITests";
+			productReference = B666A12820E89B1F00781B20 /* ios-hydra-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B666A10120E89B1D00781B20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = YukiOkudera;
+				TargetAttributes = {
+					B666A10820E89B1D00781B20 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					B666A11C20E89B1F00781B20 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = B666A10820E89B1D00781B20;
+					};
+					B666A12720E89B1F00781B20 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = B666A10820E89B1D00781B20;
+					};
+				};
+			};
+			buildConfigurationList = B666A10420E89B1D00781B20 /* Build configuration list for PBXProject "ios-hydra-demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B666A10020E89B1D00781B20;
+			productRefGroup = B666A10A20E89B1D00781B20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B666A10820E89B1D00781B20 /* ios-hydra-demo */,
+				B666A11C20E89B1F00781B20 /* ios-hydra-demoTests */,
+				B666A12720E89B1F00781B20 /* ios-hydra-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B666A10720E89B1D00781B20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B666A11720E89B1F00781B20 /* LaunchScreen.storyboard in Resources */,
+				B666A11420E89B1F00781B20 /* Assets.xcassets in Resources */,
+				B666A11220E89B1D00781B20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B666A11B20E89B1F00781B20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B666A12620E89B1F00781B20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B6BAFE9220E89E13008C0011 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Hydra.framework",
+			);
+			name = Carthage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B666A10520E89B1D00781B20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B666A10F20E89B1D00781B20 /* ViewController.swift in Sources */,
+				B666A10D20E89B1D00781B20 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B666A11920E89B1F00781B20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B666A12220E89B1F00781B20 /* ios_hydra_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B666A12420E89B1F00781B20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B666A12D20E89B1F00781B20 /* ios_hydra_demoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B666A11F20E89B1F00781B20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B666A10820E89B1D00781B20 /* ios-hydra-demo */;
+			targetProxy = B666A11E20E89B1F00781B20 /* PBXContainerItemProxy */;
+		};
+		B666A12A20E89B1F00781B20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B666A10820E89B1D00781B20 /* ios-hydra-demo */;
+			targetProxy = B666A12920E89B1F00781B20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B666A11020E89B1D00781B20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B666A11120E89B1D00781B20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B666A11520E89B1F00781B20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B666A11620E89B1F00781B20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B666A12F20E89B1F00781B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B666A13020E89B1F00781B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B666A13220E89B1F00781B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8PR34D6DP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "ios-hydra-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.yuoku.ios-hydra-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B666A13320E89B1F00781B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8PR34D6DP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "ios-hydra-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.yuoku.ios-hydra-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B666A13520E89B1F00781B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8PR34D6DP;
+				INFOPLIST_FILE = "ios-hydra-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.yuoku.ios-hydra-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-hydra-demo.app/ios-hydra-demo";
+			};
+			name = Debug;
+		};
+		B666A13620E89B1F00781B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8PR34D6DP;
+				INFOPLIST_FILE = "ios-hydra-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.yuoku.ios-hydra-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-hydra-demo.app/ios-hydra-demo";
+			};
+			name = Release;
+		};
+		B666A13820E89B1F00781B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8PR34D6DP;
+				INFOPLIST_FILE = "ios-hydra-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.yuoku.ios-hydra-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-hydra-demo";
+			};
+			name = Debug;
+		};
+		B666A13920E89B1F00781B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8PR34D6DP;
+				INFOPLIST_FILE = "ios-hydra-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.yuoku.ios-hydra-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-hydra-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B666A10420E89B1D00781B20 /* Build configuration list for PBXProject "ios-hydra-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B666A12F20E89B1F00781B20 /* Debug */,
+				B666A13020E89B1F00781B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B666A13120E89B1F00781B20 /* Build configuration list for PBXNativeTarget "ios-hydra-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B666A13220E89B1F00781B20 /* Debug */,
+				B666A13320E89B1F00781B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B666A13420E89B1F00781B20 /* Build configuration list for PBXNativeTarget "ios-hydra-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B666A13520E89B1F00781B20 /* Debug */,
+				B666A13620E89B1F00781B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B666A13720E89B1F00781B20 /* Build configuration list for PBXNativeTarget "ios-hydra-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B666A13820E89B1F00781B20 /* Debug */,
+				B666A13920E89B1F00781B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B666A10120E89B1D00781B20 /* Project object */;
+}
