@@ -1,2 +1,3 @@
 github "Alamofire/Alamofire" "4.7.2"
 github "malcommac/Hydra" "1.2.1"
+github "y-okudera/LSSLogger" "1.0.3"
